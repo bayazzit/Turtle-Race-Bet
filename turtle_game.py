@@ -22,6 +22,7 @@ turtle_3.color('blue')
 turtle_4.color('green')
 turtle_5.color('orange')
 
+# Draw the race lines
 for i in range(0, 360, 60):
     line_turtle.speed(0)
     line_turtle.goto(-300, 150 - i)
@@ -34,7 +35,7 @@ line_turtle.pendown()
 line_turtle.goto(-270, -150)
 line_turtle.penup()
 
-
+# All turtles to the right place
 turtle_1.goto(-290, 120)
 turtle_2.goto(-290, 60)
 turtle_3.goto(-290, 0)
